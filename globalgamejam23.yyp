@@ -26,6 +26,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"products","folderPath":"folders/Sprites/products.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,10 +35,16 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_gm","path":"objects/obj_gm/obj_gm.yy",},},
+    {"id":{"name":"spr_p_ex","path":"sprites/spr_p_ex/spr_p_ex.yy",},},
+    {"id":{"name":"obj_stage1_strs","path":"objects/obj_stage1_strs/obj_stage1_strs.yy",},},
+    {"id":{"name":"spr_stage1_strs","path":"sprites/spr_stage1_strs/spr_stage1_strs.yy",},},
+    {"id":{"name":"obj_stage1_img","path":"objects/obj_stage1_img/obj_stage1_img.yy",},},
+    {"id":{"name":"spr_stage1_img","path":"sprites/spr_stage1_img/spr_stage1_img.yy",},},
+    {"id":{"name":"rm_multy","path":"rooms/rm_multy/rm_multy.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_multy","path":"rooms/rm_multy/rm_multy.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

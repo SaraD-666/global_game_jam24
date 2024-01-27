@@ -15,6 +15,11 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"products","order":2,"path":"folders/Sprites/products.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_stage1_strs","order":2,"path":"objects/obj_stage1_strs/obj_stage1_strs.yy",},
+    {"name":"spr_stage1_strs","order":1,"path":"sprites/spr_stage1_strs/spr_stage1_strs.yy",},
+    {"name":"obj_stage1_img","order":1,"path":"objects/obj_stage1_img/obj_stage1_img.yy",},
+  ],
 }
