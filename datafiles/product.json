@@ -1,11 +1,11 @@
 [
     {
-        "image": "spr_productName",
-        "ng": "productName",
+        "image": "spr_tacoscope",
+        "ng": "",
         "nw": "",
-        "str1": "",
-        "str2":"",
-        "str3":"",
+        "str1": "It's a telescope!",
+        "str2":["It","space", "or you wonder how to use it, so you ", "space", "it."],
+        "str3":["Peer into your", "space"],
         "ans1":"",
         "ans2":"",
         "ans3":"",

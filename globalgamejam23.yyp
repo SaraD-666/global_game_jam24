@@ -28,7 +28,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"products","folderPath":"folders/Sprites/products.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"product.json","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
@@ -38,6 +40,7 @@
     {"id":{"name":"obj_gm","path":"objects/obj_gm/obj_gm.yy",},},
     {"id":{"name":"spr_p_ex","path":"sprites/spr_p_ex/spr_p_ex.yy",},},
     {"id":{"name":"obj_stage1_strs","path":"objects/obj_stage1_strs/obj_stage1_strs.yy",},},
+    {"id":{"name":"scr_json_import","path":"scripts/scr_json_import/scr_json_import.yy",},},
     {"id":{"name":"spr_stage1_strs","path":"sprites/spr_stage1_strs/spr_stage1_strs.yy",},},
     {"id":{"name":"obj_stage1_img","path":"objects/obj_stage1_img/obj_stage1_img.yy",},},
     {"id":{"name":"spr_stage1_img","path":"sprites/spr_stage1_img/spr_stage1_img.yy",},},
