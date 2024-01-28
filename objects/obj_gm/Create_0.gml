@@ -14,9 +14,26 @@ gamestate = GameState.Multiplayer;
 stage1_img_x = obj_stage1_img.x;
 stage1_img_y = obj_stage1_img.y;
 
+
 //import product struct
 products_struct = scr_json_import("product.json");
+products_num = 16;
 
+//selected products index
+arr_selected = [];
+
+//obj_stage1_img strings
+description1 = "";
+description2 = "";
+description3 = "";
+
+//current product struct
+curr_product = {};
+curr_sprite = 0;
+
+need_spawn = true;
+next_page = true;
+click_num = 0;
 
 
 //print products struct
