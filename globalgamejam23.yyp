@@ -39,6 +39,8 @@
   },
   "resources": [
     {"id":{"name":"obj_double_but","path":"objects/obj_double_but/obj_double_but.yy",},},
+    {"id":{"name":"obj_set_name","path":"objects/obj_set_name/obj_set_name.yy",},},
+    {"id":{"name":"spr_end_bg","path":"sprites/spr_end_bg/spr_end_bg.yy",},},
     {"id":{"name":"spr_ibrick","path":"sprites/spr_ibrick/spr_ibrick.yy",},},
     {"id":{"name":"obj_gm","path":"objects/obj_gm/obj_gm.yy",},},
     {"id":{"name":"spr_matetoilet","path":"sprites/spr_matetoilet/spr_matetoilet.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"spr_home_but","path":"sprites/spr_home_but/spr_home_but.yy",},},
     {"id":{"name":"obj_stage1_strs","path":"objects/obj_stage1_strs/obj_stage1_strs.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
+    {"id":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},},
     {"id":{"name":"spr_airplanepillow","path":"sprites/spr_airplanepillow/spr_airplanepillow.yy",},},
     {"id":{"name":"spr_mushroom","path":"sprites/spr_mushroom/spr_mushroom.yy",},},
     {"id":{"name":"spr_openworld","path":"sprites/spr_openworld/spr_openworld.yy",},},
@@ -62,6 +65,7 @@
     {"id":{"name":"ft_default","path":"fonts/ft_default/ft_default.yy",},},
     {"id":{"name":"spr_solo_but","path":"sprites/spr_solo_but/spr_solo_but.yy",},},
     {"id":{"name":"scr_converter","path":"scripts/scr_converter/scr_converter.yy",},},
+    {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"id":{"name":"obj_click_box3","path":"objects/obj_click_box3/obj_click_box3.yy",},},
     {"id":{"name":"spr_click_box","path":"sprites/spr_click_box/spr_click_box.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
@@ -72,6 +76,7 @@
     {"id":{"name":"obj_solo_but","path":"objects/obj_solo_but/obj_solo_but.yy",},},
     {"id":{"name":"obj_save_but","path":"objects/obj_save_but/obj_save_but.yy",},},
     {"id":{"name":"obj_click_box1","path":"objects/obj_click_box1/obj_click_box1.yy",},},
+    {"id":{"name":"spr_set_name","path":"sprites/spr_set_name/spr_set_name.yy",},},
     {"id":{"name":"spr_start_bg","path":"sprites/spr_start_bg/spr_start_bg.yy",},},
     {"id":{"name":"spr_stage1_img","path":"sprites/spr_stage1_img/spr_stage1_img.yy",},},
     {"id":{"name":"spr_tacoscope","path":"sprites/spr_tacoscope/spr_tacoscope.yy",},},
@@ -85,6 +90,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_multy","path":"rooms/rm_multy/rm_multy.yy",},},
+    {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

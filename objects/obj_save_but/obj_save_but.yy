@@ -9,7 +9,10 @@
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_buttons",
+    "path": "objects/obj_buttons/obj_buttons.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

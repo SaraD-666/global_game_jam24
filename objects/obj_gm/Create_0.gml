@@ -4,6 +4,7 @@ enum GameState{
   Singleplayer,
   InputText,
   ResultDisplay,
+  SetName,
   DragAndDrop
 }
 
@@ -33,6 +34,7 @@ curr_sprite = 0;
 
 need_spawn = true;
 next_page = true;
+is_ready = false;
 click_num = 0;
 
 

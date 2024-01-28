@@ -14,6 +14,7 @@ switch(gamestate){
 			if(next_page){
 				randomize();
 				rand_index = irandom_range(0, products_num - 1);
+				is_ready = false;
 				next_page = false;
 			}
 		
@@ -130,6 +131,21 @@ switch(gamestate){
 			}
 		}
 		
+		//if clicked the save button
+		if(position_meeting(mouse_x,mouse_y, obj_save_but)){
+			if(mouse_check_button_released(mb_left) && is_ready){
+				gamestate = GameState.SetName;
+				obj_stage1_img.visible = false;
+				obj_stage1_strs.visible = false;
+			}
+		}
+		//if clicked the home button
+		if(position_meeting(mouse_x,mouse_y, obj_home_but)){
+			if(mouse_check_button_released(mb_left)){
+				room_goto(rm_start);
+			}
+		}
+		
 	break;
 	case GameState.Singleplayer:
 	
@@ -160,6 +176,11 @@ switch(gamestate){
 	break;
 	case GameState.ResultDisplay:
 	
+	break;
+	case GameState.SetName:
+		instance_create_layer(room_width/2, room_height/2, "Instances", obj_set_name);
+		
+		
 	break;
 	case GameState.DragAndDrop:
 	
