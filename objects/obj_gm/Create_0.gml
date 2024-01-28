@@ -3,9 +3,10 @@ enum GameState{
   Multiplayer,
   Singleplayer,
   InputText,
-  ResultDisplay,
   SetName,
-  DragAndDrop
+  DragAndDrop,
+  InputText1,
+  Showcase
 }
 
 //initial gamestate
@@ -28,6 +29,14 @@ description1 = "";
 description2 = "";
 description3 = "";
 
+answer1 = "";
+answer2 = "";
+answer3 = "";
+
+response1 = "";
+response2 = "";
+response3 = "";
+
 //current product struct
 curr_product = {};
 curr_sprite = 0;
@@ -35,7 +44,15 @@ curr_sprite = 0;
 need_spawn = true;
 next_page = true;
 is_ready = false;
+change_input = false;
+change_ng = false;
+change_nw = false;
+can_dictionary = false;
+stage1 = true;
+stage2 = false;
 click_num = 0;
+name = "";
+round_num = 1;
 
 
 //print products struct
