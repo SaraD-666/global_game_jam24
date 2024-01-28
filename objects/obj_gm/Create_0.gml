@@ -9,6 +9,9 @@ enum GameState{
   Showcase
 }
 
+audio_stop_sound(Hell_Sell);
+audio_play_sound(Hell_Sell_Title_Theme, 10, false);
+
 //initial gamestate
 gamestate = GameState.Multiplayer;
 

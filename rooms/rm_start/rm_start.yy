@@ -9,12 +9,14 @@
   "instanceCreationOrder": [
     {"name":"inst_3A91335D","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_60D61C16","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_559C64FD","path":"rooms/rm_start/rm_start.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A91335D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_double_but","path":"objects/obj_double_but/obj_double_but.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":690.0,"y":289.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_60D61C16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_solo_but","path":"objects/obj_solo_but/obj_solo_but.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":687.0,"y":495.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_559C64FD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1195.0,"y":378.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":true,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_start_bg","path":"sprites/spr_start_bg/spr_start_bg.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

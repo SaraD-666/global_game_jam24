@@ -1,4 +1,12 @@
 randomize();
+
+if(keyboard_check_pressed(vk_anykey)){
+	audio_play_sound(Typing, 10, false);
+}
+if(mouse_check_button_pressed(mb_left)){
+	audio_play_sound(Click, 10, false);
+}
+
 //states machine
 switch(gamestate){
 	case GameState.Multiplayer:
@@ -118,6 +126,7 @@ switch(gamestate){
 			if(mouse_check_button_released(mb_left)){
 				change_input = true;
 				click_num = 1;
+				audio_play_sound(Select_Text, 10, false);
 				gamestate = GameState.InputText;
 			}
 		}
@@ -126,6 +135,7 @@ switch(gamestate){
 			if(mouse_check_button_released(mb_left)){
 				change_input = true;
 				click_num = 2;
+				audio_play_sound(Select_Text, 10, false);
 				gamestate = GameState.InputText;
 			}
 		}
@@ -134,6 +144,7 @@ switch(gamestate){
 			if(mouse_check_button_released(mb_left)){
 				change_input = true;
 				click_num = 3;
+				audio_play_sound(Select_Text, 10, false);
 				gamestate = GameState.InputText;
 			}
 		}
@@ -147,11 +158,13 @@ switch(gamestate){
 				obj_stage1_img.visible = false;
 				obj_stage1_strs.visible = false;
 				is_ready = false;
+				audio_play_sound(Menu_Button_Press_Down, 10, false);
 			}
 		}
 		//if clicked the home button
 		if(position_meeting(mouse_x,mouse_y, obj_home_but)){
 			if(mouse_check_button_released(mb_left)){
+				audio_play_sound(Menu_Button_Press_Down, 10, false);
 				room_goto(rm_start);
 			}
 		}
@@ -238,6 +251,7 @@ switch(gamestate){
 				if(mouse_check_button_released(mb_left) && is_ready){
 					gamestate = GameState.DragAndDrop;
 					can_dictionary = true;
+					audio_play_sound(Menu_Button_Press_Down, 10, false);
 					instance_destroy(obj_set_name);
 				}
 			}
@@ -262,6 +276,7 @@ switch(gamestate){
 				if(mouse_check_button_released(mb_left) && is_ready){
 					gamestate = GameState.Showcase;
 					instance_destroy(obj_set_name);
+					audio_play_sound(Menu_Button_Press_Down, 10, false);
 				}
 			}
 		}

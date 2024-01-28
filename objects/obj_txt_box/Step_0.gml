@@ -31,17 +31,20 @@ if (mouse_check_button_released(mb_left)) {
 				obj_gm.curr_product.ans1 = txt;
 				obj_gm.need_spawn = true;
 				text_x -= 100;
+				audio_play_sound(Select_Text, 10, false);
 
 			}
 			if(place_meeting(text_x,text_y, obj_click_box2)){
 				obj_gm.curr_product.ans2 = txt;
 				obj_gm.need_spawn = true;
 				text_x -= 100;
+				audio_play_sound(Select_Text, 10, false);
 			}
 			if(place_meeting(text_x,text_y, obj_click_box3)){
 				obj_gm.curr_product.ans3 = txt;
 				obj_gm.need_spawn = true;
 				text_x -= 100;
+				audio_play_sound(Select_Text, 10, false);
 				
 			}
 		}
